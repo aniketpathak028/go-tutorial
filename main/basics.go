@@ -5,10 +5,8 @@ import (
 	"unicode/utf8"
 )
 
-func main() {
-	fmt.Println("Hello World")
-
-	// constants, variables and data types
+func basics() {
+	// 1. constants, variables and data types
 
 	// signed integers (positive and negative numbers)
 	var intNum int = 23 // default 32/64 bits based on system arch
@@ -98,5 +96,4 @@ func main() {
 	fmt.Println(boolTrue)
 	fmt.Println(boolFalse)
 	fmt.Println(str)
-
 }

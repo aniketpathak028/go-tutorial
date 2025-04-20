@@ -5,8 +5,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/aniketpathak028/go-tutorials/utils"
 )
 
 /*
@@ -42,11 +40,17 @@ import (
 // a main package must contain a main function somewhere
 // convention - main func should be present inside main.go
 func main() {
-	fmt.Println("LesGooooo!")
+	fmt.Println("lesGooooo!")
 
 	// files inside the same package can access each other's code
-	basics()
+	// basics()
 
 	// use the imported package util's Number() function
-	fmt.Println(utils.Number())
+	// fmt.Println(utils.Number())
+
+	printMe("random ass string")
+
+	var result, remainder int = intDivision(11, 2)
+	// string formatting with Printf
+	fmt.Printf("the result of the integer division is %v with remainder %v", result, remainder)
 }

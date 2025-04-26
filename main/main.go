@@ -51,7 +51,10 @@ func main() {
 	fmt.Println(utils.Number())
 	printMe("random ass string")
 
-	control()
-	datastructures()
+	// control()
+	// datastructures()
+	Strings()
+
+	// speedtest()
 
 }

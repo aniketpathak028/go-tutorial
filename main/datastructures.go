@@ -72,4 +72,21 @@ func datastructures() {
 	// delete a key by reference
 	delete(myMap1, "Adam")
 
+	// loops in GO
+	for name, age := range myMap1 {
+		fmt.Printf("Name:%v, Age:%v\n", name, age)
+	}
+
+	// while
+	i := 0
+	for i < 10 {
+		fmt.Println(i)
+		i++
+	}
+
+	// increment and decrement operators
+	for j := 0; j < 10; j++ {
+		fmt.Println(j)
+	}
+
 }

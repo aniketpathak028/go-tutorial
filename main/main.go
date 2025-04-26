@@ -53,8 +53,9 @@ func main() {
 
 	// control()
 	// datastructures()
-	Strings()
+	// Strings()
 
 	// speedtest()
 
+	Struct()
 }

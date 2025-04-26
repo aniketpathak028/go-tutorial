@@ -57,5 +57,7 @@ func main() {
 
 	// Struct()
 
-	Interface()
+	// Interface()
+
+	pointers()
 }

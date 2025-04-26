@@ -5,8 +5,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/aniketpathak028/go-tutorials/utils"
 )
 
 /*
@@ -48,8 +46,8 @@ func main() {
 	// basics()
 
 	// use the imported package util's Number() function
-	fmt.Println(utils.Number())
-	printMe("random ass string")
+	// fmt.Println(utils.Number())
+	// printMe("random ass string")
 
 	// control()
 	// datastructures()
@@ -57,5 +55,7 @@ func main() {
 
 	// speedtest()
 
-	Struct()
+	// Struct()
+
+	Interface()
 }

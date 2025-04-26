@@ -50,7 +50,9 @@ func main() {
 	// printMe("random ass string")
 
 	// control()
+
 	// datastructures()
+
 	// Strings()
 
 	// speedtest()
@@ -59,5 +61,7 @@ func main() {
 
 	// Interface()
 
-	pointers()
+	// pointers()
+
+	routines()
 }

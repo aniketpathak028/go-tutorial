@@ -63,5 +63,7 @@ func main() {
 
 	// pointers()
 
-	routines()
+	// routines()
+
+	Channels()
 }

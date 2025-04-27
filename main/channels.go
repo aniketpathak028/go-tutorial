@@ -8,7 +8,7 @@ import (
 
 var MAX_CHICKEN_PRICE float32 = 5
 
-func Channels() {
+func channels() {
 	var c = make(chan int)
 
 	// deadlock: when writing to an unbuffered channel the code exec

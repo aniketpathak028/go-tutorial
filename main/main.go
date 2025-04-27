@@ -65,5 +65,7 @@ func main() {
 
 	// routines()
 
-	Channels()
+	// channels()
+
+	generics()
 }
